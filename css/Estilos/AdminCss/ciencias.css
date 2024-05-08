@@ -1,0 +1,21 @@
+ .janela{
+    position: absolute;
+    width: 100%;
+     margin-top: 25%;
+    background-color:transparent;
+    height: 600px;
+    }
+
+
+    .janelas{
+        position: relative;
+        width: 100%;
+         margin-top: 138%;
+        background-color:transparent;
+        height: 600px;
+        }
+
+        #pagina1{
+            position: relative;
+            top:230%;
+        }

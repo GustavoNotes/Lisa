@@ -1,0 +1,282 @@
+ 
+.article_top_head {
+    font-size: 50px;
+    line-height: 60px;
+	    font-family: source-serif-pro, 'Source Serif Pro', 'LyonDisplay-Medium', serif;
+        font-weight: 700;
+        margin-bottom: 25px;
+	background-color:transparent;
+	padding:100px;
+	top: -35px;
+	left:140px;
+	max-width:900px;
+	position:relative;
+}
+.article_top_head {
+    font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif;
+	
+}
+
+.article_top_description {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding:100px;
+	position:relative;
+	left:145px;
+	top:-210px;
+		color:red;
+	 
+	width:1100px;
+}
+.article_top_description {
+    color: #000000;
+    font-family: 'HelveticaNeueW01-55Roma','neue-haas-unica', sans-serif;
+
+}
+
+.article_top_byline {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+     
+    height: 30px;
+    letter-spacing: 2px;
+    top: -320px; /* Ajuste conforme necessário para levantar o texto */
+    right: -245px; /* Ajuste conforme necessário para movê-lo para o lado direito */
+	
+}
+
+ 
+.article_top_dateline {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+     
+    height: 30px;
+    width: 200px;
+    letter-spacing: 2px;
+    top: -320px; /* Ajuste conforme necessário para levantar o texto */
+    right: -240px; /* Ajuste conforme necessário para movê-lo para o lado direito */
+}
+
+.article_top_chim {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -18px; /* Ajuste conforme necessário para levantar o texto */
+    right: 10px; /* Ajuste conforme necessário para movê-lo para o lado direito */
+}
+.article_top_chim {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    display: inline-block; /* Adicionado para garantir que elementos se comportem como uma linha */
+    color: white; /* Ajuste a cor conforme necessário */
+}
+
+.article_top_byline {
+    color: black;
+    display: inline-block;
+    font-family: 'HelveticaNeueW01-45Ligh','neue-haas-unica', sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.article_top_articlehero img {
+ 
+    margin-bottom: 0px;
+	  
+	 
+	margin-left:100px;
+    margin-bottom: 0px;
+	background-color:red;
+	position:relative;
+	left:145px;
+	top:-320px;
+	
+}
+ 
+ .TGN_site_Innercollumn {
+    font-family: Lusitana,serif;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    display: block;
+}
+
+.article_top_metrics {
+    font-family: 'HelveticaNeueW01-45Ligh','neue-haas-unica', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: -20px;
+    margin-bottom: 18px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.article_top_line {
+    box-sizing: border-box;
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: none;
+}
+
+ 
+
+  /* Estilos para títulos de comentários, entradas de comentários, etc. */
+    #TGN_site_Article_body {
+    font-size: 18px;
+	
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    margin-top:-17.8%;
+    left:140px;
+	 
+    position: relative;
+    }
+	
+	.TGN_site_Article_body p {
+    max-width: 730px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-bottom: 15px;
+	line-height: 25px;
+
+}
+ 
+p {
+
+}
+
+    .TGN_PhotoEssay_Header {
+       margin-top:100px;
+	 
+    }
+
+    .TGN_contentLockupListSlideOrPhotoEssay {
+        max-width: 850px !important;
+        background-color:Transparent; 
+        margin-right: auto;
+        margin-top: 20px; /* Adiciona um espaçamento entre a foto e o texto abaixo */
+		margin-bottom:200px;
+    }
+
+    .TGN_PE_W_Img {
+        max-height: 100% !important;
+        max-width: 100% !important;
+		  margin-left: -35px;
+    }
+	
+	 .title-one {
+            font-size: 28px; /* Tamanho do texto */
+            font-weight: bold; /* Negrito */
+            color: #333; /* Cor do texto */
+            text-align: center; /* Alinhamento central */
+            text-transform: uppercase; /* Transforma o texto em maiúsculas */
+            letter-spacing: 2px; /* Espaçamento entre letras */
+            margin-bottom: 20px; /* Espaçamento inferior */
+			margin-top:70px;
+		}
+		
+h4 {
+    margin-bottom: 10px; /* Adiciona um espaço inferior entre os itens da lista */
+    
+  top:50px;
+	position:relative;
+}
+
+ 
+
+/* Remova o estilo para os valores diretamente seguidos pelo título especial */
+.titulo-especial + h4 {
+    font-weight: normal; /* Remove o negrito */
+     
+    top:50px;
+	position:relative;
+}
+
+/********************partes do comentarios*************************************************************/
+
+     .comments-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #comment-list {
+            margin-bottom: 10px;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        #comment-text {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        #comment-actions {
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            margin-left: 10px;
+            cursor: pointer;
+            padding: 5px 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .comments-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }

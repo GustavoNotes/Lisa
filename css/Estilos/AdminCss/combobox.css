@@ -1,0 +1,55 @@
+ /* Estilos para as perguntas */
+ .pergunta {
+    cursor: pointer;
+    font-weight: initial; /* Texto em negrito */
+    line-height: 30px;
+  
+}
+
+.pergunta p{-webkit-flow-into: none; font-size: 15px; text-align:left;}
+.pergunta h3 {
+    color: gray; /* Cor cinza para as letras */
+    font-weight: initial; /* Texto em negrito */
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Estilos para as respostas (inicialmente ocultas) */
+.resposta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+/* Estilo para mostrar as respostas */
+.resposta.expandida {
+    max-height: 1000px; /* Ajuste para uma altura máxima desejada */
+}
+
+
+/* Estilo para as perguntas do FAQ */
+.pergunta-faq {
+    margin-bottom: 20px; /* Espaço entre as perguntas */
+    border-bottom: 1px solid silver; /* Linha inferior preta */
+    padding-bottom: 10px; /* Espaço entre o texto e a linha */
+    max-height: 300px; /* Altura máxima das perguntas */
+    overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+}
+
+/* Estilo para os links de perguntas */
+.pergunta-faq h3 a {
+    font-size: 14px; /* Tamanho da fonte */
+    color: blue; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado do link */
+}
+
+/* Estilo para o ícone de + */
+.pergunta-faq h3 i {
+    margin-right: 5px; /* Espaço entre o ícone e o texto */
+    color: green; /* Cor do ícone */
+    font-size: 18px; /* Tamanho do ícone */
+}
+
+#semantics{margin-top: 50px;}

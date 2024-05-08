@@ -1,0 +1,192 @@
+
+
+#faixas{height: 65px;}
+#primeiro{position:absolute; top:10%; display: block;}
+
+#segundo{position: absolute; width: 100%;}
+ 
+#segundo h2{margin-top: -140px;}
+#segundo p{margin-top: 0px;}
+#primery{top:91px; position: absolute; 
+background-image: url('../fotos/b.avif'); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain; /* Adicione esta linha */
+background-size: cover;
+
+}
+#primery{height: 350px;}
+
+.video-contain {
+    flex: 1;
+    width: 100%;
+  }
+ 
+  .video-contain video {
+    width: 100%;
+    height: auto;
+    margin-left: -105%;
+    position: absolute;
+    
+  }
+  
+  .contain{
+position: absolute;
+top:50px;
+right: 150px;
+width: 500px;
+
+
+}
+
+
+  .text-contain{
+    flex: 1;
+    padding-left: 0px;
+    color:white;
+
+  }
+  
+  .block {
+    margin-bottom: 20px;
+  }
+  
+  
+  h1 {
+    margin-top: -100px;
+  
+  }
+
+  .text-contain p{
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 25px;
+    width: 450px;
+  }
+
+  .text-contain h2{
+    position:relative;
+    width: 450px;
+    color:black;
+    margin-top: -30px;
+    height:10px;
+    margin-left: 30px;
+}
+
+.segundo-meio{
+     
+    width: 100%;
+    height: 600px;
+    margin-top:100%;
+  
+}
+
+.terceiro-meio{
+    background-color:transparent;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    
+}
+ 
+  /* ... (seu cÃ³digo anterior) ... */
+
+.card-elo {
+  display: flex;
+  flex-wrap: wrap; /* Isso permite que os cards quebrem para a prÃ³xima linha quando nÃ£o hÃ¡ espaÃ§o suficiente */
+  justify-content: space-around;
+  margin: 25px;
+  margin-left: 50px;
+}
+
+#mex1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  
+}
+
+.card {
+  flex: 0 0 30%; /* Isso define a largura mÃ¡xima para 30%, mas permite que os cards se ajustem conforme necessÃ¡rio */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  height: 500px;
+  background-color: rgb(236, 235, 236);
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.content {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.text-container {
+  flex: 1;
+  margin-right: 60px;
+}
+
+h1 {
+  color: #333;
+  font-family: 'Georgia', serif; /* Exemplo de uma fonte mais estilizada para o tÃ­tulo */
+  font-size: 2em; /* Ajusta o tamanho da fonte do tÃ­tulo */
+  margin-bottom: 10px; /* Margem inferior para separar do parÃ¡grafo */
+  width: 1000px;
+  position:absolute;
+}
+
+p {
+  color: #555;
+  font-size: 1.2em; /* Ajusta o tamanho da fonte do parÃ¡grafo */
+  line-height: 1.6; /* Ajusta o espaÃ§amento entre as linhas */
+  margin-bottom: 20px; /* Margem inferior entre parÃ¡grafos */
+}
+.video-container {
+  flex: 1;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.card p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 23px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.card .date {
+  display: flex;
+  align-items: center;
+}
+
+.card .date span {
+  /* Estilo para a data, se necessÃ¡rio */
+}

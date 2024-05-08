@@ -1,0 +1,224 @@
+body{background-color:#fff;}
+#solene{width:100%; height:380px;   background-color:#0a747c;
+
+}
+
+.box {background : white; width:420px; height: 250px; margin-left: 90px; margin-top:70px;}
+.box h2{color:black; font-size: 35px; width: 200px; padding-top: 30px; margin-left: 30px; 
+    line-height:40px;  }
+.box p{margin-left: 30px; padding-top: 15px;}
+ 
+
+#back{position: relative; top:-250px;}
+#back p {margin-top:-100px;}
+#line{line-height: 27px; background-color: #222;}
+
+ 
+
+#m1{
+    background-image:url('../fotos/formados.avif') ;
+  }
+ #m2{
+    background-image:url('../fotos/icons/vetor1.Avif') ;
+  }
+  
+  #ponto{margin-right: 116%;}
+ 
+
+
+  #m3{
+    background-image:url('../fotos/icons/vetor2.Avif') ;
+  }
+  #m1 h2,
+  #m1 p,
+  #m2 h2,
+  #m2 p,
+  #m3 h2,
+  #m3 p {
+    margin-top: 230px;
+  }
+ 
+#m1 ,
+#m2 ,
+#m3 
+  {position: relative; top: 75px; left:-60px; margin: -30px; 
+}
+
+
+
+    #place{margin-top: 70px;}
+
+    #mh{height: 200px; background-image:url('../fotos/tresmulheres.avif'); background-size: cover;background-repeat: no-repeat;
+       background-position: center; position: absolute; height: 330px;  width: 300px;
+      }
+
+      #foto1{background-image:url('../icons/vetor.avif'); }
+
+    #place p{position:relative; top:-50px; line-height: 26px;}
+    
+    .item-content {display: flex;flex-direction: row;align-items: center; /* Alinhar verticalmente no centro */
+        margin-left: 370px; top: -45%; position:absolute; width: 100%;
+
+        
+    }
+    .item-content p{margin-left: 200px; width: 500px;  }
+    .item-content h2{margin-left: 200px; width: 500px; }
+    .minha-secao {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente */
+    }
+    
+    .item {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente dentro de cada item */
+        margin-bottom: 20px; /* Adicione espaço entre os itens */
+    }
+    
+    .item img {
+        margin-right: 20px; /* Adicione espaço entre a imagem e o texto */
+    }
+    
+    .item-content {
+        flex: 1; /* Ocupa todo o espaço restante */
+    }
+
+    #foto1 img{width:210px; height: 165px; margin-top: 1px; padding: 10px; margin-left:-5px;}
+    
+    .imgs{position: relative; background-color:transparent; width: 200px; height: 330px; left:330px;}
+    
+
+ 
+    #listass .imagems1 h3 {
+        position: absolute; /* Defina a posição como absoluta para que o texto fique sobre a imagem */
+        bottom: 10px; /* Posicione o texto a partir do fundo da div */
+        left: 10px; /* Posicione o texto a partir da esquerda da div */
+        color: white; /* Cor do texto */
+        background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para tornar o texto legível */
+        padding: 10px; /* Espaçamento interno do texto */
+      }
+       
+      
+      #listass .imagems1 {
+        width: 1300px; /* Defina a largura da div de imagem */
+        height: 100%; /* Defina a altura da div de imagem */
+        background-image: url('../fotos/faixa.png'); /* URL da imagem de fundo */
+        background-size: cover; /* Ajuste o tamanho da imagem para cobrir toda a div */
+        background-position: center; /* Centralize a imagem na div */
+        position: absolute; /* Defina a posição como absoluta para que a div fique por trás dos outros elementos */
+        z-index: -1; /* Defina um z-index negativo para garantir que fique por trás dos outros elementos */
+        left: -118px;
+        top: 70%;
+    }
+    
+    #title{margin-top: -270px; margin-bottom: 10%;}
+    .container-informacoes .item h2 {
+        font-size: 26px; /* Defina o tamanho da fonte desejado, por exemplo, 16 pixels */
+      
+      }
+
+
+      #white-text h2{margin-left:-40px; margin-top: -150px;}
+      #white-text p{ margin-top: -260px; width:650px; float:center; margin-left: 230px; line-height: 25px; }
+
+   
+       
+     
+      
+      .container-informacoes .item p {
+        font-size: 14px; /* Defina o tamanho da fonte desejado, por exemplo, 14 pixels */
+      }
+      #cards{margin-top: -400px;  background-color:transparent; padding:25px;}
+      #whrod{margin-top: -100px; padding: -20px;    }
+      
+      #im1 img{width: 100px; margin-top: 0px; padding:10px;  }
+ 
+.item h2{color: #222; margin-block: 170px;}
+.item p{color: #222; margin-block: 180px;}
+
+#socian{margin-top: 550px; position: absolute; width:100%; top: -120px;}
+ 
+.fait{background-color: transparent; width: 100%;background-color:#424242; height: 100px;}
+#text-edition h2{position:relative;  color:white;  width: 100%; margin-left: 0px; font-size: 25px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#video-quem-somos{position: relative; margin-top: 280px;  }
+
+#video-quem-somos h2{margin: 50px;}
+
+.video-contain video{margin: 0px; width:700px; height:400px; background:#666666;}
+
+
+#meu-Video {
+    background-color: #D2B48C; /* Cor de fundo marrom claro */
+    cursor: pointer; /* Altera o cursor para indicar que o vídeo é clicável */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+#meu-Video:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando o vídeo é hover */
+}
+
+#ti h2{margin-top:150px; padding: 50px;}
+.unt{margin-top: -10px;}
+#ti img{width:100%; height:200px; }
+.imagem-seo{background-color:transparent;width:120%; height: 200px; margin-left: -80px; margin-top:100px;}
+#imagens-seo{ padding:20px; margin-left: 125px;  width:800px; height:250px; position: relative; top:-120px;}
+
+
+
+
+
+
+
+:root {
+    --bs-blue: #008fd3;
+    --bs-purple: #970A82;
+    --bs-orange: #E35500;
+    --bs-gold: #F0AB00;
+    --bs-green: #4FB81C;
+    --bs-white: #fff;
+    --bs-gray: #999999;
+    --bs-gray-dark: #666666;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #008fd3;
+    --bs-secondary: #6c757d;
+    --bs-success: #127823;
+    --bs-info: #008fd3;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 0,143,211;
+    --bs-secondary-rgb: 0,143,211;
+    --bs-success-rgb: 18,120,35;
+    --bs-info-rgb: 0,143,211;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 84,84,84;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: "custom22ee0fcfa06f44629b9d3","SAPRegular",Arial,Helvetica,sans-serif;
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.4;
+    --bs-body-color: #545454;
+    --bs-body-bg: #fff;
+}

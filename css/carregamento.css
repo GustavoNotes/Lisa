@@ -1,0 +1,52 @@
+.login-icon {
+    float: right; /* Coloca o ícone à direita */
+    margin-right: 150px; /* Adiciona um espaçamento à direita */
+    margin-top: -30px;
+    font-size: 24px; /* Tamanho do ícone */
+    color: white; /* Cor do ícone */
+    cursor: pointer; /* Transforma o ícone em um link ou botão */
+    background-color:transparent;
+}
+    .language-icon {
+        float: right; /* Coloca o ícone à direita */
+        margin-right: -150px; /* Adiciona um pequeno espaçamento à direita */
+        margin-top: -30px;
+        font-size: 24px; /* Tamanho do ícone */
+        color: white; /* Cor do ícone */
+        cursor: pointer; /* Transforma o ícone em um link ou botão */     
+    
+}
+.language-options {
+    float: right; /* Alinhar à direita */
+    margin-right: 10px; /* Espaçamento à direita */
+}
+
+.language-option {
+    margin-right: 10px; /* Espaçamento entre as opções */
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #333; /* Cor das opções de idioma */
+    font-weight: bold; /* Negrito para destacar as opções */
+}
+
+.language-option:hover {
+    color: #0073e6; /* Cor ao passar o mouse sobre as opções */
+}
+
+.language-icon img{width: 50px;}
+
+
+/* Estilize o seletor de idioma como desejar */
+.language-selector {
+    margin-right: 20px; /* Espaçamento à direita para separar dos outros elementos */
+}
+
+#idioma {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    float:right;
+    margin-top: -30px;
+}
+
+.en img{background-image: url('../fotos/eua.png');}

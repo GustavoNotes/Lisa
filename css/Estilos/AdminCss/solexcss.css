@@ -1,0 +1,100 @@
+ /* Estilo para a classe .Trends */
+.Trends {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* Estilo para o risco azul anil */
+.Trends::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.entrar-fazer-conta {
+    float: right;
+    margin-top: 10px;
+}
+
+.entrar-fazer-conta a i {
+    font-size: 24px;
+}
+
+.entrar-fazer-conta a {
+    left: -150px;
+    text-decoration: none;
+    color: #C0C0C0;
+    position: relative;
+}
+
+header {
+    padding: 1px 0;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+#em-cima {
+    background-color:black;
+    border-radius: 0;
+    background-image: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 74px;
+    right: 0;
+    transform: translateZ(0);
+    z-index: 100;
+}
+
+.busca {
+    top: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    height: 43px;
+    background-color: transparent;
+    margin-left: 350px;
+    position: absolute;
+}
+
+.letra-logo {
+    font-size: 12px;
+    font-family: "Times New Roman", Times, serif;
+    color: lightgreen;
+    transform: rotate(170deg);
+}
+
+#campo_busca {
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 0px;
+    color: black;
+    height: 40px;
+    background: white;
+    width: 600px;
+    float: left;
+}
+
+.buscar_produto {
+    border: 0px solid;
+    border-radius: 0px;
+    color: transparent;
+    height: 37px;
+    width: 45px;
+    float: left;
+    background-color: transparent;
+    margin-left: -47px;
+    margin-top: 13px;
+    color: #141414;
+}
+
+ 

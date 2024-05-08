@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+ body{ 
+  max-width:100%;
+  
+} 
+
+#sice{height:80px; }
+
+
+
+.logo{width: 100%;
+background: rgb(44, 36, 36);
+margin-top: 15%;
+height: 130px;
+border-bottom: 2px solid #000; /* Adiciona uma borda preta abaixo da barra cinza */}
+
+
+
+
+.resultado-container{
+   
+    background-color:#333;
+    height: 0 auto;
+    width: 100%;
+     
+}
+
+ 
+
+.resultado h2 {
+    font-size: 15px; /* Tamanho da fonte para os títulos */
+    color: #333; /* Cor do texto do título */
+     margin:10px auto;
+}
+
+.descricao {
+    font-size: 16px; /* Tamanho da fonte para a descrição */
+    color: #777; /* Cor do texto da descrição */
+    text-align: left;
+}
+
+/* Estilos para links */
+ 

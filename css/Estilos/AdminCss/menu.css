@@ -1,0 +1,261 @@
+/* Estilo para a classe .Trends */
+.Trends {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* Estilo para o risco azul anil */
+.Trends::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+
+.entrar-fazer-conta {
+    float: right;
+    margin-top: 10px;
+}
+
+.entrar-fazer-conta a i {
+    font-size: 24px;
+}
+
+.entrar-fazer-conta a {
+    left: -150px;
+    text-decoration: none;
+    color: #C0C0C0;
+    position: relative;
+}
+
+header {
+    padding: 1px 0;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+#em-cima {
+    background-color: black;
+    border-radius: 0;
+    background-image: no-repeat;
+    position: ;
+    top: 0px;
+    left: 0;
+    height: 74px;
+    right: 0;
+    transform: translateZ(0);
+    z-index: 100;
+}
+
+.busca {
+    top: -10px;
+    padding: 0px;
+    border-radius: 0px;
+    height: 43px;
+    background-color: transparent;
+    margin-left: 330px;
+    position: absolute;
+}
+
+.letra-logo {
+    font-size: 12px;
+    font-family: "Times New Roman", Times, serif;
+    color: lightgreen;
+    transform: rotate(170deg);
+}
+
+#campo_busca {
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 0px;
+    color: black;
+    height: 40px;
+    background: white;
+    width: 600px;
+    float: left;
+}
+
+.buscar_produto {
+    border: 0px solid;
+    border-radius: 0px;
+    color: transparent;
+    height: 37px;
+    width: 45px;
+    float: left;
+    background-color: transparent;
+    margin-left: -47px;
+    margin-top: 13px;
+    color: #141414;
+}
+
+.logo {
+    height: 2.125rem;
+    z-index: 400;
+    background: transparent;
+    position: relative;
+    border-right: 1px solid;
+}
+
+.cadastrar a {
+    color: black;
+}
+
+.entrar a {
+    color: white;
+    font-size: 18px;
+}
+
+.entrar li {
+    background-color: transparent;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 87%;
+    margin-top: -20px;
+    padding: 0 .625rem;
+    list-style: none;
+    font-size: 17px;
+}
+
+.in {
+    position: relative;
+    left: 45px;
+    top: -76px;
+}
+
+.inlogo {
+    height: 2.125rem;
+    z-index: 400;
+    width: 130px;
+    margin-left: 10%;
+    margin-top: 50px;
+    background: transparent;
+    position: relative;
+    border-right: 1px solid;
+}
+
+.inlogo p {
+    color: white;
+    font-size: 36px;
+    font-style: oblique;
+    display: block;
+    line-height: 1.2;
+}
+
+#menu {
+    right: -261px;
+    top: 105px;
+    position: absolute;
+    list-style: none;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid transparent;
+}
+
+#menu ul li {
+    margin: 1px;
+    margin-top: 18px;
+    padding: 0px;
+    border-bottom: 1px solid transparent;
+    text-align: left;
+    list-style-type: none;
+}
+
+#menu li a {
+    background: transparent;
+    color: #ccc;
+    font-weight: ariel;
+    text-decoration: none;
+    padding: 2px 12px;
+    display: block;
+}
+
+#menu li ul {
+    position: absolute;
+    top: 25px;
+    background-color: white;
+    display: none;
+}
+
+.containers {
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+    background: white;
+    position: absolute;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+/* Estilo para o texto de direitos autorais */
+.copyright {
+    font-size: 14px;
+    color: white;
+}
+
+#men {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 80px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#men ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+#men li {
+    margin: 10px 3px 10px;
+    text-align: left;
+    line-height: 27px;
+    margin-left: -100px;
+}
+
+#men a {
+    text-decoration: none;
+    color: #d0d0d0;
+}
+
+#men a:hover {
+    color: blue;
+}
+
+#men div {
+    text-align: center;
+}
+
+#men h3 {
+    color: #d0d0d0;
+    margin-bottom: 20px;
+    margin-left: -100px;
+}

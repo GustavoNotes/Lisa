@@ -1,0 +1,47 @@
+/* Estilo para os rótulos (labels) */
+
+.point{margin-top: 100px;}
+label {
+    display: block;
+    font-weight: bold;
+    height: 50px;
+    width: 400px;
+    background-color: rgb(106, 125, 228);
+    margin-left: 400px;
+ 
+      
+    
+  
+}
+ 
+/* Estilo para os campos de entrada de texto */
+input[type="text"],
+textarea {
+    width: 30%;
+    padding: 10px;
+    height: 30%;
+    border: 1px solid #140909;
+    border-radius: 5px;
+    margin-left: 400px;
+    
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilo para o menu suspenso */
+select {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 400px;
+}

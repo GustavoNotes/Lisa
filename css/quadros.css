@@ -1,0 +1,182 @@
+ .container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: -50%;
+  position: relative;
+}
+
+.circle-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-left: 30px;
+
+}
+
+.container p {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.img1 {
+  background-image: url('../fotos/afeganistan.jpeg');
+}
+
+.img2 {
+  background-image: url('../fotos/ela.jpeg');
+}
+
+.img3 {
+  background-image: url('../fotos/tu.jpeg');
+  background-repeat: no-repeat;
+}
+
+.img1, .img2, .img3 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  display: inline-block;
+  width: 90%;
+  margin-left: 0%;
+  padding: 8px 40px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+  .cok2{
+   height: 600px;
+
+  width: 100%;
+  margin-top: -0px;
+  background-color: transparent;
+ 
+
+ }
+
+
+
+ .container-informacoes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  height: 550px;
+  background-color:transparent;
+  margin-
+  
+}
+
+ 
+  ul {
+        list-style-position: inside;
+            list-style-type: none;
+            color:blue;
+              font-family: Arial, sans-serif;
+              font-size: 17px;
+
+    }
+
+    li {
+        text-align: center;
+    }
+.item {
+  margin: 0 10px;
+  width: calc(100% / 3 - 10px);
+  position: relative;
+}
+
+.item h2, .item p {
+  position: absolute;
+  width: 100%;
+  margin-top: 65%;
+}
+
+.item h2 {
+  top: calc(30% - 1em); /* Ajuste o valor conforme necessário */
+   text-align: left;
+}
+
+.item p {
+  top: calc(35% + 1em); /* Ajuste o valor conforme necessário */
+  text-align: left;  line-height: 26px;
+}
+
+.imga, .imgb, .imgc {
+ 
+  background-size: cover;
+  height: 250px;
+    margin-top: 50px;
+  width: 350px;
+}
+
+.imgq, .imgw, .imge {
+ 
+  background-size: cover;
+  background: transparent;
+  height: 150px;
+  margin-top: 0px;
+  width: 350px;
+
+
+}
+
+.imga {
+  background-image: url('../fotos/comercio.jpg');
+
+}
+
+.imgb {
+  background-image: url('../fotos/transferir2.jpg');
+}
+
+.imgc {
+  background-image: url('../fotos/transferir3.jpg');
+}
+
+
+.imgq{
+  background-image: url('../fotos/ma.png');
+  background-repeat: no-repeat;
+background-position: center; /* Adicione esta linha */
+  background-size: contain; /* Adicione esta linha */
+   }
+
+
+
+
+.imgw {
+  background-image: url('../fotos/uni.png');
+  background-repeat: no-repeat;
+  background-position: center; /* Adicione esta linha */
+  background-size: contain; /* Adicione esta linha */ }
+
+
+.imge {
+background-image: url('../fotos/ouro.png');
+background-repeat:no-repeat;
+background-position: center; /* Adicione esta linha */
+background-size: contain; /* Adicione esta linha */ }
+
+#ponto{margin-top: -5%; margin-left:- 10%; padding: 25px;}
+
+#pontos{  margin-left: 4%;}
+
+#virgula{margin-left: 0%; top: -80%; background-color:#0e76a8 ; position:relative;width:100%; display: block;}
+.t{width: 20%; height: 12%; position: absolute; top: 350px; float:left;margin-left: 37%;
+ border-radius: 5px;background-color: #0e76a8;}
+button }

@@ -1,0 +1,53 @@
+.em-cimas {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    margin-top: -200px;
+}
+
+body{background:red;}
+
+.busca {
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+#buscas{border-radius: 10px;}
+
+.resultado-container {
+    margin: 0;
+    position: inherit;
+    background-color: transparent;
+    margin-top: 200px;
+}
+
+.resultado {
+    background-color: transparent;
+    height: auto;
+    top: 290px;
+    position: inherit;
+    margin: 15px;
+}
+
+.resultado h2 a {
+    color: #006799;
+    font-size: 15px;
+    margin-left: 220px;
+}
+
+.descricao {
+    background-color: transparent;
+    color: rgb(7, 2, 2);
+    width: 650px;
+    margin-left: 220px;
+    line-height: 20px;
+    height: auto;
+    padding-top: 15px; /* Espaçamento superior ajustado para 5px */
+    padding-bottom: 10px; /* Espaçamento inferior */
+}
+
+.descricao p {
+    width: 50px;
+}
